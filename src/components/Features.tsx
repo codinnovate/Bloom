@@ -30,7 +30,7 @@ const Features = () => {
         <div className='w-full p-5'>
            <Image src={pregs} alt='pregnant women' width='667' height='256'/>
         </div>
-        <div className='flex flex-col gap-4 w-full '>
+        <div className='flex flex-col gap-4 w-full p-3 '>
             <h1 className='text-purple'>WHO IS BLOOM</h1>
             <h1 className='text-2xl text-grey'>We are your Pregnancy and Post-Delivery Friend</h1>
             <p className='text-grey text-[16px]'>Dedicated to reducing the rate of deaths among pregnant women, we provide help in:</p>

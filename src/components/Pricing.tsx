@@ -70,7 +70,7 @@ const Pricing = () => {
 
           </div>
         </div>
-        <div className='flex flex-col md:flex-row gap-5 mt-[3em]'>
+        <div className='flex flex-col md:flex-row gap-5 mt-[3em]   items-center'>
           {pricingData.map((item, idx) => (
             <PriceCard key={idx}
              {...item} 
