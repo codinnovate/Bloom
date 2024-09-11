@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        'purple':'#9747FF',
+        'grey':'#101928',
+        'pink':'#ffa9b4',
+      }
     },
   },
   plugins: [],

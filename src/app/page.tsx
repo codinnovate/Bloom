@@ -13,15 +13,15 @@ export default function Home() {
   return (
    <main className="flex flex-col gap-[5em] w-full overflow-hidden">
     <Header />
-    <section className="max-w-5xl mx-auto p-3 flex flex-col gap-5">
+    <section className="max-w-6xl mx-auto p-3 flex flex-col gap-5">
       <Hero />
    </section>
     <WhyUseUs />
-    <section className="max-w-5xl mx-auto p-3 flex flex-col gap-5">
+    <section className="max-w-6xl mx-auto p-3 flex flex-col gap-5">
       <Features />
    </section>
    <Testimonials />
-   <section className="max-w-5xl mx-auto p-3 flex flex-col gap-5">
+   <section className="max-w-6xl mx-auto p-3 flex flex-col gap-5">
     <Pricing />
     <Blog />
     <Download />

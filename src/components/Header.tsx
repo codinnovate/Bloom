@@ -17,9 +17,9 @@ const Header = () => {
     <div className='flex w-full p-3 py-5 bg-white justify-between items-center'>
       <Image src={logo} alt='Bloom' width='165' height='56' />
 
-      <nav className='hidden md:flex'>
+      <nav className='hidden md:flex gap-5'>
         {navLinks.map((link, index) => (
-          <Link key={index} href={link.href} className='p-2 font-semibold text-black/70 hover:text-pink-500 transition-all hover:border-b-4 rounded-b-md border-pink-500'>
+          <Link key={index} href={link.href} className=' font-medium text-black/70 hover:text-pink-500 transition-all hover:border-b-2 rounded-b-md border-pink-500'>
             {link.title}
           </Link>
         ))}
