@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div className='flex flex-col md:flex-row w-full justify-between items-center gap-[3em]'>
         <div className='w-full  flex flex-col gap-3'>
-            <h1 className='text-2xl md:text-5xl font-semibold font-murecho text-grey'>Empower your journey of motherhood with <span className='text-purple font-bold'>Bloom</span></h1>
+            <h1 className='text-4xl md:text-5xl font-semibold font-murecho text-grey'>Empower your journey of motherhood with <span className='text-purple font-bold'>Bloom</span></h1>
             <h2 className='text-[24px] text-grey'>Your one-stop support system for information and connection for every step of your pregnancy, and baby care</h2>
             <Button
              className=''

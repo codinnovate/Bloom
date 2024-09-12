@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation:{
+        "loop-scroll":'loop-scroll 50s linear infinite',
+      },
+      keyframes:{
+        "loop-scroll":{
+          from:{transform:"translateX(0)"},
+          to:{transform:"translateX(-100%)"},
+        },
+      },
       colors:{
         'purple':'#9747FF',
         'grey':'#101928',
