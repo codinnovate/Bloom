@@ -10,14 +10,15 @@ const WhyUseUs = () => {
         
     ]
   return (
-    <div className='flex items-center justify-between w-full p-5 bg-[#e5d5e4] h-[182px]'>
+    <div className='flex w-full p-5 bg-[#e5d5e4] h-[182px]'>
+      <div className='max-w-5xl mx-auto flex items-center justify-between w-full  '>
       {items.map((key, idx) => (
         <span key={idx}>
           <h1>{key.title}</h1>
         </span>
       )
       )}
-      
+      </div>
     </div>
   )
 }

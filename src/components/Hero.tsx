@@ -10,13 +10,13 @@ import newborn from '@/assets/newborn.png';
 const Hero = () => {
   return (
     <div className='flex flex-col md:flex-row w-full justify-between items-center gap-[3em]'>
-        <div className='flex flex-col gap-3'>
-            <h1 className='text-4xl font-bold'>Empower your journey of motherhood with <span>Bloom</span></h1>
-            <h2>Your one-stop support system for information and connection for every step of your pregnancy, and baby care</h2>
+        <div className='w-full  flex flex-col gap-3'>
+            <h1 className='text-2xl md:text-5xl font-semibold font-murecho text-grey'>Empower your journey of motherhood with <span className='text-purple font-bold'>Bloom</span></h1>
+            <h2 className='text-[24px] text-grey'>Your one-stop support system for information and connection for every step of your pregnancy, and baby care</h2>
             <Button
              className=''
               title="Get Started for Free" />
-            <div className='flex flex-col gap-2'>
+            <div className='flex flex-col  gap-2'>
                 <h2>Trusted by 1K+ mothers</h2>
                 <div className='flex items-center gap-2'>
                 <Image alt='avatar' src={avatar} width='78' height='24' />
@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className='flex w-full gap-5'>
+        <div className='flex min-w-[46%] gap-5'>
             <Image className='max-h-[459px]' src={pregnantwoman} width='260' height='459' alt='pregnant woman'/>
             <Image className='mt-[40px] h-[479px]' src={newborn} width='260' height='479'  alt='new born baby'/>
         </div>

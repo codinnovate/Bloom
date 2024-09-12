@@ -14,7 +14,9 @@ const Header = () => {
         {title:"Blog", href:'/'},
     ]
   return (
-    <div className='flex w-full p-3 py-5 bg-white justify-between items-center'>
+    <div className='flex w-full p-3 py-5 bg-white '>
+      <div className='flex w-full max-w-6xl mx-auto justify-between items-center'>
+
       <Image src={logo} alt='Bloom' width='165' height='56' />
 
       <nav className='hidden md:flex gap-5'>
@@ -31,6 +33,7 @@ const Header = () => {
         <path d="M11 20H29M11 14H29M11 26H29" stroke="#344054" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </button>
+      </div>
     </div>
   )
 }
