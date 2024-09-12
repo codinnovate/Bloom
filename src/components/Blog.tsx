@@ -21,7 +21,9 @@ const Blog = () => {
       </div>
       <div className='w-full flex gap-[2em] flex-col  md:flex-row items-center '>
         {blogData.map((item, idx) => (
-          <div className='flex flex-col  w-[411px] '>
+          <div  
+          key={idx} 
+          className='flex flex-col  w-[411px] '>
             <div className='bg-[#EADAFF] w-fit rounded-full py-[2px] px-2 m-3 absolute  font-medium text-[12px]'>
               New born
               </div>
