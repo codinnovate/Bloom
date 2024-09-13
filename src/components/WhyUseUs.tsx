@@ -29,7 +29,7 @@ const WhyUseUs = () => {
     ]
   return (
     <div className='flex w-full p-5 bg-[#e5d5e4] h-[182px]'>
-      <div className='max-w-5xl mx-auto flex items-center justify-between w-full gap-[2em]  animate-loop-scroll '>
+      <div className='max-w-5xl mx-auto flex items-center justify-between w-full gap-[2em]  animate-loop-scroll  md:animate-none'>
       {items.map((key, idx) => (
         <span className='flex items-center justify-center flex-col min-w-[177px]  ' key={idx}>
           <span className=''>{key.image}</span>

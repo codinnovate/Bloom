@@ -4,7 +4,7 @@ import footerlogo from '@/assets/footerlogo.png';
 
 const Footer = () => {
   return (
-    <footer className='w-full flex flex-col md:flex-row justify-between mt-[3em] '>
+    <footer className='w-full flex flex-col md:flex-row justify-between mt-[3em] p-2 '>
       <div className='flex flex-col'>
         <Image src={footerlogo} width='184' height='68' alt='Bloom Logo' />
       </div>
