@@ -6,7 +6,7 @@ import pregs from '@/assets/pregs.png'
 import vconsult from '@/assets/2.png';
 import community from '@/assets/3.png';
 import edu from '@/assets/1.png';
-
+import featureTracker from '@/assets/feature-tracker.png'
 const Features = () => {
     const featuresItems = [
         {description:'Connecting with healthcare personnel from your home'},
@@ -22,11 +22,11 @@ const Features = () => {
              description:"Two is better than One, as the saying goes. Connect with mothers that are in similar situation as you and get to learn firsthand about how they dealt with such situation", image:community},
         {title:'Educational Resources', 
             description:"Postpartum depression is REAL!!! Learn about pregnancy and baby care with our trusted information. Get tips and articles for a healthy pregnancy journey right at your fingertips.", image:edu},
-        //{title:'Personalized Care Tracker', description:"Stay on track, mama!!Never miss an appointment, checkups and immunizations with our personalized reminders. We will keep you organized from pregnancy to parenthood.", image:},
+        {title:'Personalized Care Tracker', description:"Stay on track, mama!!Never miss an appointment, checkups and immunizations with our personalized reminders. We will keep you organized from pregnancy to parenthood.", image:featureTracker},
     ]
   return (
-    <section className='flex flex-col gap-[3em] w-full'>
-    <div className='flex flex-col md:flex-row w-full gap-[3em] items-center justify-between'>
+    <section  className='flex flex-col gap-[3em] w-full'>
+    <div id='about' className='flex flex-col md:flex-row w-full gap-[3em] items-center justify-between'>
         <div className='w-full p-5'>
            <Image src={pregs} alt='pregnant women' width='667' height='256'/>
         </div>
@@ -49,7 +49,7 @@ const Features = () => {
         </div>
     </div>
 
-    <div className='flex flex-col w-full '>
+    <div id='features' className='flex flex-col w-full '>
         <div className='flex flex-col md:items-center w-full'>
         <h1 className=' text-purple text-[16px] font-medium'>FEATURES</h1>
         <h2 className='font-medium text-xl'>All You Need for the Big and Happy Journey</h2>
