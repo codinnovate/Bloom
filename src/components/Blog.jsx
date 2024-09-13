@@ -11,7 +11,7 @@ const blogData = [
 ]
 const Blog = () => {
   return (
-    <div className='flex flex-col gap-5 mt-[3em]'>
+    <div id='blog' className='flex flex-col gap-5 mt-[3em]'>
       <div className='flex items-center justify-between'>
         <div className='flex flex-col '>
         <p className='text-purple text-[16px] font-medium'>OUR BLOG</p>

@@ -59,7 +59,7 @@ const PriceCard = ({hasCover, plan, amount, buttonText, infos }) => {
 }
 const Pricing = () => {
   return (
-    <div className='flex flex-col gap-5 '>
+    <div id='pricing' className='flex flex-col gap-5 '>
       <div className='flex flex-col items-center justify-center gap-3'>
         <h1 className='text-sm uppercase text-purple'>Pricing</h1>
         <p className='text-xl'>
