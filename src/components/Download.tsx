@@ -6,7 +6,7 @@ import downloadImage from '@/assets/download.png';
 
 const Download = () => {
   return (
-    <div className='rounded bg-[#FFA9B44D] max-w-[1281px] w-full min-h-[477px] p-[2em] flex flex-col md:flex-row justify-between items-center gap-5'>
+    <div className='rounded bg-[#FFA9B44D] max-w-[1281px] w-full min-h-[477px] p-[2em] flex flex-col md:flex-row justify-between items-center gap-5 mt-[5em]'>
       <div className='flex flex-col gap-2  '>
         <h1 className='text-2xl md:text-3xl font-bold'>Start Blooming: Your Pregnancy & Motherhood Companion</h1>
         <p>Download Bloom and get expert advice, never miss your checkups and more right at your fingertips</p>

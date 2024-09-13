@@ -10,7 +10,7 @@ import WhyUseUs from "@/components/WhyUseUs";
 
 export default function Home() {
   return (
-   <main className=" flex flex-col gap-[5em] w-full overflow-hidden">
+   <main className=" flex flex-col gap-[5em] w-full overflow-hidden ">
     <Header />
     <section className="max-w-6xl mx-auto p-3 flex flex-col gap-[2em]">
       <Hero />
